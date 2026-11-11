@@ -42,6 +42,92 @@ footer{background:#102b35;color:white;text-align:center;padding:30px 15px}
 header{justify-content:center;gap:12px}
 nav a{margin:0 5px;font-size:12px}
 }
+.container{
+  max-width:1100px;
+  margin:auto;
+}
+
+.offer{
+  background:linear-gradient(135deg,#f4f7f5,#e8efeb);
+  padding:75px 7%;
+}
+
+.offer h2{
+  color:#173b45;
+  font-size:32px;
+}
+
+.offer-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:22px;
+  margin:35px 0;
+}
+
+.offer-card{
+  background:white;
+  padding:28px 22px;
+  border-radius:14px;
+  text-align:left;
+  box-shadow:0 8px 25px #173b4515;
+  border-bottom:4px solid #e8bd67;
+  transition:transform .3s,box-shadow .3s;
+}
+
+.offer-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 12px 30px #173b4525;
+}
+
+.offer-card h3{
+  color:#173b45;
+  margin-bottom:12px;
+  font-size:19px;
+}
+
+.offer-card p{
+  color:#687780;
+  font-size:14px;
+}
+
+.offer-highlight{
+  background:#173b45;
+  color:white;
+  padding:35px 20px;
+  border-radius:16px;
+  margin-top:25px;
+}
+
+.offer-highlight h3{
+  color:#e8bd67;
+  font-size:24px;
+  margin-bottom:12px;
+}
+
+.offer-highlight p{
+  margin-bottom:22px;
+}
+
+.offer-highlight a{
+  display:inline-block;
+  background:#e8bd67;
+  color:#173b45;
+  padding:14px 22px;
+  border-radius:7px;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:14px;
+}
+
+.offer-highlight a:hover{
+  background:white;
+}
+
+@media(max-width:600px){
+  .offer h2{font-size:25px}
+  .offer-card{padding:23px 18px}
+  .offer-highlight h3{font-size:20px}
+}
 </style>
 </head>
 
