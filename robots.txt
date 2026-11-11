@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://andhidyka.github.io/jalanjalantrans/sitemap.xml
